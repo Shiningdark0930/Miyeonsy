@@ -92,7 +92,38 @@ int main()
 		Sleep(800);
 		
 	}
+	
 	printf("[과로사를 유혹했다! 앞으로 과로사가 따라다닌다.]\n");
+	Sleep(800);
+	
+	
+	printf("[저 멀리 원정상이 지나간다.]\n");
+	Sleep(800);
+	printf("과로사:오르골~리액션~\n");
+	Sleep(800);
+	
+	printf("무엇을 할까?\n");
+	printf("1:정상님 제 이름 불러주세요!\n");
+	printf("2:정상님 잘생겼어요\n");
+	Sleep(800);
+	
+	scanf("%d", &Select);
+	if(Select == 1){
+		
+		printf("원정상:잼민이 새끼 @#!#!@\n");
+		Sleep(800);
+		printf("[원정상이 그저 -잼- 에게 분노하고 있다]\n");
+		Sleep(800);
+		main();
+	}
+	else{
+		
+		printf("원정상:알고 있구나..? 하하! 내가 좀 잘생겼지!\n");
+		Sleep(800);
+		
+	}
+	
+	printf("[원정상을 유혹했다! 앞으로 원정상이 따라다닌다.]\n");
 	Sleep(800);
 	
 }
