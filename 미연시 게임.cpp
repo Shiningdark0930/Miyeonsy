@@ -129,7 +129,7 @@ int main()
 	
 	printf("[저 멀리 보겸이 지나간다.]\n");
 	Sleep(800);
-	printf("보겸:오르골~리액션~\n");
+	printf("보겸:보이루~\n");
 	Sleep(800);
 	
 	printf("무엇을 할까?\n");
