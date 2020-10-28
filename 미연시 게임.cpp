@@ -99,7 +99,7 @@ int main()
 	
 	printf("[저 멀리 원정상이 지나간다.]\n");
 	Sleep(800);
-	printf("과로사:오르골~리액션~\n");
+	printf("원정상:오르골~리액션~\n");
 	Sleep(800);
 	
 	printf("무엇을 할까?\n");
@@ -124,6 +124,67 @@ int main()
 	}
 	
 	printf("[원정상을 유혹했다! 앞으로 원정상이 따라다닌다.]\n");
+	Sleep(800);
+	
+	
+	printf("[저 멀리 보겸이 지나간다.]\n");
+	Sleep(800);
+	printf("보겸:오르골~리액션~\n");
+	Sleep(800);
+	
+	printf("무엇을 할까?\n");
+	printf("1:벽돌택배 보내기\n");
+	printf("2:(여자 목소리로)보겸오빠 안녕하세요?\n");
+	Sleep(800);
+	
+	scanf("%d", &Select);
+	if(Select == 1){
+		
+		printf("보겸:변호사님 잘 처리 부탁드립니다.\n");
+		Sleep(800);
+		printf("[감옥에 들어가 버렸다.]\n");
+		Sleep(800);
+		main();
+	}
+	else{
+		
+		printf("보겸:히히히! 히! 히히!\n");
+		Sleep(800);
+		
+	}
+	
+	printf("[보겸을 유혹했다! 앞으로 보겸이 따라다닌다.]\n");
+	Sleep(800);
+	
+	
+	
+	printf("[저 멀리 한혜연이 지나간다.]\n");
+	Sleep(800);
+	printf("한혜연:죄송합니다.\n");
+	Sleep(800);
+	
+	printf("무엇을 할까?\n");
+	printf("1:사랑해요 누나\n");
+	printf("2:이건 거른다.\n");
+	Sleep(800);
+	
+	scanf("%d", &Select);
+	if(Select == 1){
+		
+		printf("한혜연:죄송합니다.\n");
+		Sleep(800);
+		printf("[한혜연과 같이 죄송합니다를 외치게 되었다.]\n");
+		Sleep(800);
+		main();
+	}
+	else{
+		
+		printf("좋은 선택이다.\n");
+		Sleep(800);
+		
+	}
+	
+	printf("[한혜현을 유혹하지 못했다! 그러나 좋은 선택인 것 같다.]\n");
 	Sleep(800);
 	
 }
