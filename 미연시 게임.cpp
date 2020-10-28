@@ -37,13 +37,13 @@ int main()
 	printf("[류으미를 유혹했다! 앞으로 류으미가 따라다닌다.]\n");
 	Sleep(800);
 	
-		printf("[저 멀리 형독이 지나간다.]\n");
+	printf("[저 멀리 형독이 지나간다.]\n");
 	Sleep(800);
 	printf("형독:에에잉~!!\n");
 	Sleep(800);
 	
 	printf("무엇을 할까?\n");
-	printf("1:갈빙");
+	printf("1:-갈빙-\n");
 	printf("2:형독오빠 멋져요\n");
 	Sleep(800);
 	
@@ -63,6 +63,36 @@ int main()
 		
 	}
 	printf("[형독을 유혹했다! 앞으로 형독이 따라다닌다.]\n");
+	Sleep(800);
+	
+	
+	
+	printf("[저 멀리 과로사가 지나간다.]\n");
+	Sleep(800);
+	printf("과로사:이이잉~앗살라마이꿈~\n");
+	Sleep(800);
+	
+	printf("무엇을 할까?\n");
+	printf("1:뀽뀽 해주세요!\n");
+	printf("2:10000원 후원\n");
+	Sleep(800);
+	
+	scanf("%d", &Select);
+	if(Select == 1){
+		
+		printf("과로사:@!#$!$@!#$ 절대안해 !@#!@#아!\n");
+		Sleep(800);
+		printf("[과로사가 정신이 나갔다.]\n");
+		Sleep(800);
+		main();
+	}
+	else{
+		
+		printf("과로사:이이이이이이이이잉!!!\n");
+		Sleep(800);
+		
+	}
+	printf("[과로사를 유혹했다! 앞으로 과로사가 따라다닌다.]\n");
 	Sleep(800);
 	
 }
